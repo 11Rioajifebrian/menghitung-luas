@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button_persegi"
+            android:onClick="launchPersegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+        <Button
+            android:id="@+id/button_persegiPanjang"
+            android:onClick="launchPersegiPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi Panjang"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+        <Button
+            android:id="@+id/button_segitiga"
+            android:onClick="launchSegitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Segitiga"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/button_tentang"
+            android:onClick="launchTentang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tentang"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
